@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183F61471E83BB0400E8B3B1 /* RegisteredCompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F61461E83BB0400E8B3B1 /* RegisteredCompaniesViewController.swift */; };
+		1848ACE51E852D7E000EBF2F /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848ACE41E852D7E000EBF2F /* NotificationViewController.swift */; };
+		186749AE1E827F0200B8C238 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186749AD1E827F0200B8C238 /* CategoriesViewController.swift */; };
+		186749B01E827F1600B8C238 /* RecentSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186749AF1E827F1600B8C238 /* RecentSearchViewController.swift */; };
+		186749B21E827F2800B8C238 /* CompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186749B11E827F2800B8C238 /* CompanyViewController.swift */; };
+		186749BA1E8282FE00B8C238 /* Assistant-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186749B41E8282FE00B8C238 /* Assistant-Bold.otf */; };
+		186749BB1E8282FE00B8C238 /* Assistant-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186749B51E8282FE00B8C238 /* Assistant-ExtraBold.otf */; };
+		186749BC1E8282FE00B8C238 /* Assistant-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186749B61E8282FE00B8C238 /* Assistant-ExtraLight.otf */; };
+		186749BD1E8282FE00B8C238 /* Assistant-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186749B71E8282FE00B8C238 /* Assistant-Light.otf */; };
+		186749BE1E8282FE00B8C238 /* Assistant-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186749B81E8282FE00B8C238 /* Assistant-Regular.otf */; };
+		186749BF1E8282FE00B8C238 /* Assistant-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186749B91E8282FE00B8C238 /* Assistant-SemiBold.otf */; };
+		186749C11E8286C900B8C238 /* APIRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186749C01E8286C900B8C238 /* APIRequestDelegate.swift */; };
+		186749C41E8290B700B8C238 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186749C31E8290B700B8C238 /* CategoriesCollectionViewCell.swift */; };
+		186749C71E82E39F00B8C238 /* LinearProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186749C61E82E39F00B8C238 /* LinearProgressBar.swift */; };
+		186749CA1E83266E00B8C238 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186749C91E83266E00B8C238 /* AppConfig.swift */; };
+		189E9D881E83D529001F2839 /* RegisteredCompaniesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E9D871E83D529001F2839 /* RegisteredCompaniesViewCell.swift */; };
+		189E9D8A1E841550001F2839 /* CompanyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E9D891E84154F001F2839 /* CompanyDetailsViewController.swift */; };
+		18B293411E84837200C93920 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B293401E84837200C93920 /* UIView.swift */; };
+		18B4FF361E8C6BCC00645B52 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B4FF351E8C6BCC00645B52 /* MapKit.framework */; };
 		18BF66C41E81DD3E00394ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF66C31E81DD3E00394ECA /* AppDelegate.swift */; };
 		18BF66C61E81DD3E00394ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF66C51E81DD3E00394ECA /* ViewController.swift */; };
 		18BF66C91E81DD3E00394ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BF66C71E81DD3E00394ECA /* Main.storyboard */; };
@@ -14,6 +33,14 @@
 		18BF66CE1E81DD3E00394ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BF66CC1E81DD3E00394ECA /* LaunchScreen.storyboard */; };
 		18BF66D91E81DD3E00394ECA /* CosappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF66D81E81DD3E00394ECA /* CosappTests.swift */; };
 		18BF66E41E81DD3E00394ECA /* CosappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF66E31E81DD3E00394ECA /* CosappUITests.swift */; };
+		18BF66F31E81E32000394ECA /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF66F21E81E32000394ECA /* APIRequest.swift */; };
+		18E1038B1E8681E3006C32F7 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1038A1E8681E3006C32F7 /* HomeTabViewController.swift */; };
+		18E1038D1E86A1AB006C32F7 /* RecomendationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1038C1E86A1AB006C32F7 /* RecomendationCollectionViewCell.swift */; };
+		18E1038F1E86A1C3006C32F7 /* CategoryAdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1038E1E86A1C3006C32F7 /* CategoryAdsCollectionViewCell.swift */; };
+		18E1A8F31E82704E009C124A /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1A8F21E82704E009C124A /* Dashboard.swift */; };
+		18E1A8F51E8270B4009C124A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1A8F41E8270B4009C124A /* HomeViewController.swift */; };
+		18E1A8F71E8270E7009C124A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1A8F61E8270E7009C124A /* SettingsViewController.swift */; };
+		20D2FF589C5EFFF5A3B4BED8 /* Pods_Cosapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030FF97CB9A705AD4C9201A3 /* Pods_Cosapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +61,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030FF97CB9A705AD4C9201A3 /* Pods_Cosapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cosapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		183F61461E83BB0400E8B3B1 /* RegisteredCompaniesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredCompaniesViewController.swift; sourceTree = "<group>"; };
+		1848ACE41E852D7E000EBF2F /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		186749AD1E827F0200B8C238 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		186749AF1E827F1600B8C238 /* RecentSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentSearchViewController.swift; sourceTree = "<group>"; };
+		186749B11E827F2800B8C238 /* CompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyViewController.swift; sourceTree = "<group>"; };
+		186749B41E8282FE00B8C238 /* Assistant-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-Bold.otf"; sourceTree = "<group>"; };
+		186749B51E8282FE00B8C238 /* Assistant-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-ExtraBold.otf"; sourceTree = "<group>"; };
+		186749B61E8282FE00B8C238 /* Assistant-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-ExtraLight.otf"; sourceTree = "<group>"; };
+		186749B71E8282FE00B8C238 /* Assistant-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-Light.otf"; sourceTree = "<group>"; };
+		186749B81E8282FE00B8C238 /* Assistant-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-Regular.otf"; sourceTree = "<group>"; };
+		186749B91E8282FE00B8C238 /* Assistant-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-SemiBold.otf"; sourceTree = "<group>"; };
+		186749C01E8286C900B8C238 /* APIRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestDelegate.swift; sourceTree = "<group>"; };
+		186749C31E8290B700B8C238 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		186749C61E82E39F00B8C238 /* LinearProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearProgressBar.swift; sourceTree = "<group>"; };
+		186749C91E83266E00B8C238 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		189E9D871E83D529001F2839 /* RegisteredCompaniesViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredCompaniesViewCell.swift; sourceTree = "<group>"; };
+		189E9D891E84154F001F2839 /* CompanyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyDetailsViewController.swift; sourceTree = "<group>"; };
+		18B293401E84837200C93920 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		18B4FF351E8C6BCC00645B52 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		18BF66C01E81DD3E00394ECA /* Cosapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cosapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BF66C31E81DD3E00394ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BF66C51E81DD3E00394ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +94,16 @@
 		18BF66DF1E81DD3E00394ECA /* CosappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BF66E31E81DD3E00394ECA /* CosappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosappUITests.swift; sourceTree = "<group>"; };
 		18BF66E51E81DD3E00394ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BF66F21E81E32000394ECA /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		18E1038A1E8681E3006C32F7 /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		18E1038C1E86A1AB006C32F7 /* RecomendationCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendationCollectionViewCell.swift; sourceTree = "<group>"; };
+		18E1038E1E86A1C3006C32F7 /* CategoryAdsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryAdsCollectionViewCell.swift; sourceTree = "<group>"; };
+		18E1A8F21E82704E009C124A /* Dashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		18E1A8F41E8270B4009C124A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18E1A8F61E8270E7009C124A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2F9F286AD0A8B577E21F8DF4 /* Pods_CosappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7BE50AC6ABD6B26BE97D40 /* Pods-Cosapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cosapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cosapp/Pods-Cosapp.release.xcconfig"; sourceTree = "<group>"; };
+		FAFA0FD04AEFD22B039B80CB /* Pods-Cosapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cosapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cosapp/Pods-Cosapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B4FF361E8C6BCC00645B52 /* MapKit.framework in Frameworks */,
+				20D2FF589C5EFFF5A3B4BED8 /* Pods_Cosapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +133,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		186749B31E8282C900B8C238 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				186749B41E8282FE00B8C238 /* Assistant-Bold.otf */,
+				186749B51E8282FE00B8C238 /* Assistant-ExtraBold.otf */,
+				186749B61E8282FE00B8C238 /* Assistant-ExtraLight.otf */,
+				186749B71E8282FE00B8C238 /* Assistant-Light.otf */,
+				186749B81E8282FE00B8C238 /* Assistant-Regular.otf */,
+				186749B91E8282FE00B8C238 /* Assistant-SemiBold.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		186749C21E82909000B8C238 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				186749C31E8290B700B8C238 /* CategoriesCollectionViewCell.swift */,
+				189E9D871E83D529001F2839 /* RegisteredCompaniesViewCell.swift */,
+				18E1038C1E86A1AB006C32F7 /* RecomendationCollectionViewCell.swift */,
+				18E1038E1E86A1C3006C32F7 /* CategoryAdsCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		186749C51E82E38A00B8C238 /* ViewUtils */ = {
+			isa = PBXGroup;
+			children = (
+				186749C61E82E39F00B8C238 /* LinearProgressBar.swift */,
+				18B293401E84837200C93920 /* UIView.swift */,
+			);
+			name = ViewUtils;
+			sourceTree = "<group>";
+		};
+		186749C81E83262000B8C238 /* ModelPrefs */ = {
+			isa = PBXGroup;
+			children = (
+				186749C91E83266E00B8C238 /* AppConfig.swift */,
+			);
+			name = ModelPrefs;
+			sourceTree = "<group>";
+		};
 		18BF66B71E81DD3E00394ECA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +181,8 @@
 				18BF66D71E81DD3E00394ECA /* CosappTests */,
 				18BF66E21E81DD3E00394ECA /* CosappUITests */,
 				18BF66C11E81DD3E00394ECA /* Products */,
+				98605B3A608F3C0D03477E3B /* Pods */,
+				AE47FF5B0D0A2C6536E026FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +199,12 @@
 		18BF66C21E81DD3E00394ECA /* Cosapp */ = {
 			isa = PBXGroup;
 			children = (
+				186749C81E83262000B8C238 /* ModelPrefs */,
+				186749C51E82E38A00B8C238 /* ViewUtils */,
+				186749C21E82909000B8C238 /* Cells */,
+				186749B31E8282C900B8C238 /* Fonts */,
+				18E1A8F11E826FF3009C124A /* ViewControllers */,
+				18BF66F11E81E2FB00394ECA /* HTTP */,
 				18BF66C31E81DD3E00394ECA /* AppDelegate.swift */,
 				18BF66C51E81DD3E00394ECA /* ViewController.swift */,
 				18BF66C71E81DD3E00394ECA /* Main.storyboard */,
@@ -125,6 +233,51 @@
 			path = CosappUITests;
 			sourceTree = "<group>";
 		};
+		18BF66F11E81E2FB00394ECA /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				18BF66F21E81E32000394ECA /* APIRequest.swift */,
+				186749C01E8286C900B8C238 /* APIRequestDelegate.swift */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
+		18E1A8F11E826FF3009C124A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18E1A8F41E8270B4009C124A /* HomeViewController.swift */,
+				18E1A8F21E82704E009C124A /* Dashboard.swift */,
+				18E1A8F61E8270E7009C124A /* SettingsViewController.swift */,
+				186749AD1E827F0200B8C238 /* CategoriesViewController.swift */,
+				186749AF1E827F1600B8C238 /* RecentSearchViewController.swift */,
+				186749B11E827F2800B8C238 /* CompanyViewController.swift */,
+				183F61461E83BB0400E8B3B1 /* RegisteredCompaniesViewController.swift */,
+				189E9D891E84154F001F2839 /* CompanyDetailsViewController.swift */,
+				1848ACE41E852D7E000EBF2F /* NotificationViewController.swift */,
+				18E1038A1E8681E3006C32F7 /* HomeTabViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		98605B3A608F3C0D03477E3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA0FD04AEFD22B039B80CB /* Pods-Cosapp.debug.xcconfig */,
+				9D7BE50AC6ABD6B26BE97D40 /* Pods-Cosapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE47FF5B0D0A2C6536E026FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B4FF351E8C6BCC00645B52 /* MapKit.framework */,
+				030FF97CB9A705AD4C9201A3 /* Pods_Cosapp.framework */,
+				2F9F286AD0A8B577E21F8DF4 /* Pods_CosappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18BF66E81E81DD3E00394ECA /* Build configuration list for PBXNativeTarget "Cosapp" */;
 			buildPhases = (
+				884EE13918179D1291D294BD /* [CP] Check Pods Manifest.lock */,
 				18BF66BC1E81DD3E00394ECA /* Sources */,
 				18BF66BD1E81DD3E00394ECA /* Frameworks */,
 				18BF66BE1E81DD3E00394ECA /* Resources */,
+				04D3F564524D0E66231FC661 /* [CP] Embed Pods Frameworks */,
+				A48D51FBC42162D4E9E88B4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +349,7 @@
 				TargetAttributes = {
 					18BF66BF1E81DD3E00394ECA = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 83M7A6W736;
 						ProvisioningStyle = Automatic;
 					};
 					18BF66D31E81DD3E00394ECA = {
@@ -232,7 +389,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186749BB1E8282FE00B8C238 /* Assistant-ExtraBold.otf in Resources */,
 				18BF66CE1E81DD3E00394ECA /* LaunchScreen.storyboard in Resources */,
+				186749BC1E8282FE00B8C238 /* Assistant-ExtraLight.otf in Resources */,
+				186749BF1E8282FE00B8C238 /* Assistant-SemiBold.otf in Resources */,
+				186749BA1E8282FE00B8C238 /* Assistant-Bold.otf in Resources */,
+				186749BD1E8282FE00B8C238 /* Assistant-Light.otf in Resources */,
+				186749BE1E8282FE00B8C238 /* Assistant-Regular.otf in Resources */,
 				18BF66CB1E81DD3E00394ECA /* Assets.xcassets in Resources */,
 				18BF66C91E81DD3E00394ECA /* Main.storyboard in Resources */,
 			);
@@ -254,13 +417,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04D3F564524D0E66231FC661 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cosapp/Pods-Cosapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		884EE13918179D1291D294BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A48D51FBC42162D4E9E88B4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cosapp/Pods-Cosapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18BF66BC1E81DD3E00394ECA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E1A8F51E8270B4009C124A /* HomeViewController.swift in Sources */,
+				189E9D881E83D529001F2839 /* RegisteredCompaniesViewCell.swift in Sources */,
 				18BF66C61E81DD3E00394ECA /* ViewController.swift in Sources */,
+				183F61471E83BB0400E8B3B1 /* RegisteredCompaniesViewController.swift in Sources */,
+				186749B01E827F1600B8C238 /* RecentSearchViewController.swift in Sources */,
+				186749C11E8286C900B8C238 /* APIRequestDelegate.swift in Sources */,
+				18BF66F31E81E32000394ECA /* APIRequest.swift in Sources */,
+				18E1038D1E86A1AB006C32F7 /* RecomendationCollectionViewCell.swift in Sources */,
+				18E1A8F31E82704E009C124A /* Dashboard.swift in Sources */,
+				186749B21E827F2800B8C238 /* CompanyViewController.swift in Sources */,
 				18BF66C41E81DD3E00394ECA /* AppDelegate.swift in Sources */,
+				186749C41E8290B700B8C238 /* CategoriesCollectionViewCell.swift in Sources */,
+				186749AE1E827F0200B8C238 /* CategoriesViewController.swift in Sources */,
+				18E1038F1E86A1C3006C32F7 /* CategoryAdsCollectionViewCell.swift in Sources */,
+				186749CA1E83266E00B8C238 /* AppConfig.swift in Sources */,
+				18B293411E84837200C93920 /* UIView.swift in Sources */,
+				1848ACE51E852D7E000EBF2F /* NotificationViewController.swift in Sources */,
+				189E9D8A1E841550001F2839 /* CompanyDetailsViewController.swift in Sources */,
+				18E1A8F71E8270E7009C124A /* SettingsViewController.swift in Sources */,
+				18E1038B1E8681E3006C32F7 /* HomeTabViewController.swift in Sources */,
+				186749C71E82E39F00B8C238 /* LinearProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +640,10 @@
 		};
 		18BF66E91E81DD3E00394ECA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFA0FD04AEFD22B039B80CB /* Pods-Cosapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83M7A6W736;
 				INFOPLIST_FILE = Cosapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecoach.Cosapp;
@@ -422,8 +654,10 @@
 		};
 		18BF66EA1E81DD3E00394ECA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7BE50AC6ABD6B26BE97D40 /* Pods-Cosapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83M7A6W736;
 				INFOPLIST_FILE = Cosapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecoach.Cosapp;
@@ -505,6 +739,7 @@
 				18BF66EA1E81DD3E00394ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18BF66EB1E81DD3E00394ECA /* Build configuration list for PBXNativeTarget "CosappTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +748,7 @@
 				18BF66ED1E81DD3E00394ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18BF66EE1E81DD3E00394ECA /* Build configuration list for PBXNativeTarget "CosappUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +757,7 @@
 				18BF66F01E81DD3E00394ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

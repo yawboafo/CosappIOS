@@ -18,8 +18,24 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Assistant-Bold.otf</string>
+		<string>Assistant-ExtraBold.otf</string>
+		<string>Assistant-ExtraLight.otf</string>
+		<string>Assistant-Regular.otf</string>
+		<string>Assistant-SemiBold.otf</string>
+		<string>Assistant-Light.oft</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

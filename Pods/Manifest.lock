@@ -1,0 +1,71 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - Cosmos (8.0.2)
+  - CountryPickerSwift (1.4.0)
+  - FontAwesome.swift (1.1.1)
+  - ImageSlideshow (1.2.0):
+    - ImageSlideshow/Core (= 1.2.0)
+  - ImageSlideshow/Core (1.2.0)
+  - IQKeyboardManagerSwift (4.0.6)
+  - Kingfisher (3.2.4)
+  - Letters (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - PageMenu (1.2.9)
+  - PasswordTextField (1.0.4)
+  - Scrollable (1.0.5)
+  - SwiftyJSON (3.0.0)
+  - Toaster (2.0.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - AlamofireImage (~> 3.1)
+  - Cosmos (~> 8.0)
+  - CountryPickerSwift
+  - FontAwesome.swift (from `https://github.com/thii/FontAwesome.swift.git`)
+  - ImageSlideshow (~> 1.2)
+  - IQKeyboardManagerSwift (= 4.0.6)
+  - Kingfisher (~> 3.2.4)
+  - Letters
+  - MBProgressHUD (~> 1.0.0)
+  - PageMenu (from `https://github.com/orazz/PageMenu.git`)
+  - PasswordTextField (~> 1.0.4)
+  - Scrollable (~> 1.0)
+  - SwiftyJSON (= 3.0.0)
+  - Toaster (~> 2.0)
+
+EXTERNAL SOURCES:
+  FontAwesome.swift:
+    :git: https://github.com/thii/FontAwesome.swift.git
+  PageMenu:
+    :git: https://github.com/orazz/PageMenu.git
+
+CHECKOUT OPTIONS:
+  FontAwesome.swift:
+    :commit: 1c34ca8b777f06c0585f1db50d887d89a6d80dd4
+    :git: https://github.com/thii/FontAwesome.swift.git
+  PageMenu:
+    :commit: ace3d8d095c9c165113d3ac797f317fe7faecbae
+    :git: https://github.com/orazz/PageMenu.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Cosmos: 007c0b8e33a85e5363911bdd933571bbe221f7ef
+  CountryPickerSwift: f6a2202071f2627ea6b22f7bc6b130c6582efca3
+  FontAwesome.swift: f17f51374e47baee92418580f8ebdad92a97b34d
+  ImageSlideshow: c1395dcf33f7dba407fd21df0e8c315e8941e209
+  IQKeyboardManagerSwift: b3015e819559ca76381f87a0833f44d178564603
+  Kingfisher: 8d80f39da403cd9c9ee11984e1655f4d6a566cdb
+  Letters: 5cfa7075f0d15083ea24365186ffa848ea858293
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
+  PasswordTextField: 1fccb24dd769cfc963f1f60cb9fece692ad40530
+  Scrollable: 1be6d6b8b4fbc6aa98f5f44a24c1f88105ae35dd
+  SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
+  Toaster: 77c0b03d78e680bbbab0071c9c7ee392b0034010
+
+PODFILE CHECKSUM: 67261c272c9d3f713007fc4b0f411a3087f20010
+
+COCOAPODS: 1.2.0
